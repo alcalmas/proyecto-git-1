@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+}
+/* #logo header nav ul{
+    display: flex;
+    justify-content: flex-start;
+} */
+ body {
+    background-color: #eaf2f8;
+ }
+header {
+    background-image: url(../image/fonfo4.webp);
+    /*background-color: beige;*/
+   /* display: flex;*/
+    position: fixed;
+    z-index: 999;
+    top: 0;
+   left: 0;
+   width: 100%;
+   box-shadow: 2px 2px 6px 2px wheat;
+   /*margin: 5px;
+   padding: 10px; */
+    
+}
+#menu {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    gap: 300px;
+    margin: auto;
+    padding: auto;
+}
+nav {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    margin: auto;
+    padding: auto;
+
+}
+a {
+    
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: whitesmoke;
+    font-size: 15px;
+    border: 2px solid transparent;
+    padding: 5px;
+    transition: 4s ease;
+}
+a:hover {
+    transition: 4s ease;
+    border: 2px solid rgb(6, 160, 225);
+    background-color: aquamarine;
+    padding: 5px;
+}
+/*img {
+    width: 100px;
+    
+    position: fixed;
+}*/
+#fondo-video {
+    width: 100%;
+    height: 30%;
+    position: relative;
+    padding: 10px;
+    margin: 5px;
+}
+video {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    max-height: 100vh; /* si quieres que ocupe la mitad de la pantalla, sino coloca px. */
+    /*overflow: hidden; /* escondes lo que queda de video despues del porcentaje especificado */
+}
+#msg-video {
+    padding: 50px;
+    margin: 30px;
+    font-size: 40px;
+    color: blue;
+    font-style: oblique;
+}
+#msg-video{
+    position: absolute;  
+    top: 30%;
+    
+  }
+  /*.contenedor {
+      position: relative;
+      width: 300px;
+      height: 300px;
+  }*/
+.certipors{
+    /*width: 450px;
+    height: 400px;*/
+    display: flex;
+}
+#secta {
+    width: 400px;
+    margin-left: 30px;
+    padding: 20px;
+    border-radius: 50px;
+    height: 150px;
+    align-items: center;
+    gap: 900;
+}
+#encabeza {
+    padding: 30px;
+    margin: 20px;
+    
+}
+#cuerpo {
+    display: flex;
+    margin-top: 20px;
+    padding: 10px;
+}
+.baners img {
+    width: 50px;
+    height: 139;  
+    
+}
+
+footer p {
+    text-align: center; font-style: italic; fill-opacity: initial;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    color: azure;
+}
+footer {
+    background-image: url(../image/fonfo4.webp);
+    height: 200px;
+}
+#pie {
+display: flex;
+gap: 200px;
+margin: 10px;
+padding: 20px;
+}
+
+/* ----- */
+
+form {
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: blue;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    
+}
+
+#form {
+    display: flex;
+    margin-top: 80px;
+    padding: 80px;
+}
+
+.servicios {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 50px;
+    padding: 80px;
+}
+
+.servicio1 {
+    width: 20%;
+    margin-bottom: 20px;
+    text-align: center;
+    
+}
+.servicio2 {
+    width: 20%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.servicio3 {
+    width: 20%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.servicio4 {
+    width: 20%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.servicio img {
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+
+.texto{
+    text-align: justify;
+}
+
+h2{
+    margin-top: 50px;
+}
+
+
+
+/* ----------------- */
+
