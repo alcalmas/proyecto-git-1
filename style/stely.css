@@ -227,7 +227,7 @@ h2{
 
 
 /* ----------------- */
-@media (max-width:768px){
+/*@media (max-width:768px){
   .main .center .searh{
     width: 500px;
   }
@@ -251,5 +251,5 @@ h2{
     cursor: pointer;
     visibility: visible;
   }
-}
+}*/
 
